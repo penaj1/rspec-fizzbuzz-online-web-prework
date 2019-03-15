@@ -9,6 +9,6 @@ if int % 3 == 0 and int % 5 == 0
   elsif int % 5 == 0
   "Buzz"
 else
-  nil
+  "nil"
 end
 end
