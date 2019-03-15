@@ -6,5 +6,8 @@ if int % 3 == 0
 end
 end
 
-fizzbuzz(3)
-fizzbuzz(5)
+def fizzbuzz(int)
+  if int % 5 == 0
+    "Buzz"
+  end
+end
