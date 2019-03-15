@@ -6,8 +6,4 @@ if int % 3 == 0
 end
 end
 
-def fizzbuzz(int)
-if int % 5 == 0
-  "Buzz"
-end
-end
+puts fizzbuzz(3)
