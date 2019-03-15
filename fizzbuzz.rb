@@ -3,17 +3,14 @@
 
 def fizzbuzz(int)
   
-if int % 3 == 0
+if int % 3 == 0 and int % 5 == 0
+  puts "Fizzbuzz"
+  
+  elsif int % 3 == 0
   puts "Fizz"
-end
 
   elsif int % 5 == 0
   puts "Buzz"
-end
-
-  elsif int % 3 == 0 and int % 5 == 0
-  puts "Fizzbuzz"
-end
 
 else
   puts "nil"
